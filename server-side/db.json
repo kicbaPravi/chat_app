@@ -1,0 +1,63 @@
+{
+  "data": {
+    "comments": [
+      {
+        "id": "1",
+        "author": {
+          "name": "Ivan Martic",
+          "picture": "img/ivan.jpg"
+        },
+        "text": "Hello guys! How's everyone doing?",
+        "timestamp": 1607862300000
+      },
+      {
+        "id": "2",
+        "author": {
+          "name": "Stjepan Liovic",
+          "picture": "img/stjepan.jpg"
+        },
+        "text": "i would suggest having a a look at this new tool! https://www.unitconverters.net/length/miles-to-km.htm",
+        "timestamp": 1607871660000
+      },
+      {
+        "id": "3",
+        "parent_id": "2",
+        "author": {
+          "name": "Martin Durkovic",
+          "picture": "img/martin.jpg"
+        },
+        "text": "Thanks! Will have a look.",
+        "timestamp": 1607872200000
+      },
+      {
+        "id": "4",
+        "author": {
+          "name": "Anonymous",
+          "picture": "img/anonymous.jpg"
+        },
+        "text": "New comment.",
+        "timestamp": 1699647774092
+      },
+      {
+        "id": "5",
+        "parent_id": "1",
+        "author": {
+          "name": "Anonymous",
+          "picture": "img/anonymous.jpg"
+        },
+        "text": "Reply on first comment.",
+        "timestamp": 1699647790216
+      },
+      {
+        "id": "6",
+        "parent_id": "3",
+        "author": {
+          "name": "Anonymous",
+          "picture": "img/anonymous.jpg"
+        },
+        "text": "Reply on reply.",
+        "timestamp": 1699647814517
+      }
+    ]
+  }
+}
